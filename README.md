@@ -38,6 +38,21 @@ a collection of leetcode solutions, by problem number. 21 entries. python and SQ
 
 a slow drip. some easy, some medium. nothing here is meant to be the *best* solution — just *a* solution that worked.
 
+## verify
+
+This is an archive, not a live app. The useful check is that every
+committed solution still parses and every SQL answer is non-empty:
+
+```bash
+python scripts/validate_archive.py
+```
+
+Expected output:
+
+```text
+validated 16 python file(s) and 5 sql file(s)
+```
+
 ## colophon
 
 archived. not actively maintained. if you found this looking for the canonical answer to problem `638`, this is not it.
