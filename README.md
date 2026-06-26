@@ -1,16 +1,14 @@
-<!-- ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ -->
+# leetcode
 
-# N° 09 · leetcode
+Twenty-one problems, solved once and left where they fell. No write-ups, no second passes, no "optimal" rewrite when the first one already returned the right answer. The filename is the problem number; that's the whole filing system.
 
-> *the obligatory grind, captured for completeness.*
+## What it does
 
-a collection of leetcode solutions, by problem number. 21 entries. python and SQL. no commentary, no write-ups. file = problem; that's the whole filing system.
+It holds solutions, by problem number, in two languages — sixteen Python files and five SQL ones. A slow drip over time: some easy, some medium, nothing chosen to look clever. Each file is one answer that worked the day it was written. The point was never the best solution to problem 135. It was getting 135 to pass and moving on.
 
-`python` · `sql` · **status: archived**
+There's no application here. The directory is flat, the names tell you what's inside, and the only running code is the one script that checks the archive hasn't rotted.
 
-<!-- ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ -->
-
-## the index
+## The index
 
 | # | problem | language |
 |---|---|---|
@@ -36,9 +34,7 @@ a collection of leetcode solutions, by problem number. 21 entries. python and SQ
 | 890 | find and replace pattern             | py  |
 | 893 | groups of special equivalent strings | py  |
 
-a slow drip. some easy, some medium. nothing here is meant to be the *best* solution — just *a* solution that worked.
-
-## verify
+## Verify
 
 This is an archive, not a live app. The useful check is that every
 committed solution still parses and every SQL answer is non-empty:
@@ -53,8 +49,10 @@ Expected output:
 validated 16 python file(s) and 5 sql file(s)
 ```
 
-## colophon
+Twenty-one in, twenty-one out. If the count ever drops, something rotted.
 
-archived. not actively maintained. if you found this looking for the canonical answer to problem `638`, this is not it.
+## Colophon
 
-*built downstairs.* — [the basement, room 7](https://github.com/AthenaTheOwl)
+Archived. Not actively maintained. If you came looking for the canonical answer to problem `638`, it isn't here — that one never got solved, which is its own kind of entry.
+
+[the basement, room 7](https://github.com/AthenaTheOwl)
